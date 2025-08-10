@@ -18,7 +18,7 @@ from starlette.middleware.cors import CORSMiddleware
 # ----------------------------
 # AIPipe client (LLM interface)
 # ----------------------------
-AIPIPE_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFtYWFuYW5zYXJpMDIwNjIwMDNAZ21haWwuY29tIn0.Uj_2Wot14-dhFmENinvcv7fBSVH6I-yOqu_2MeO-Z6g"
+AIPIPE_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjMwMDEwNjlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.WlWWc_9xwGDbytjxQQ0igBsE7S8GIUZcGGblk0V8NMs"
 AIPIPE_MODEL_DEFAULT = "openai/gpt-4o-mini"
 
 if not AIPIPE_API_KEY:
